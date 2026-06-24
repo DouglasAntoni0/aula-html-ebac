@@ -1,36 +1,46 @@
-# Projeto de Demonstração HTML + CSS - EBAC
+# Projeto HTML e CSS - EBAC
 
-Este é um projeto simples para demonstrar conceitos básicos de HTML e CSS, incluindo o uso de seletores, para alunos da EBAC.
+![HTML5](https://img.shields.io/badge/HTML5-semantica-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-seletores%20e%20estilo-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-publicacao-222222?style=for-the-badge&logo=githubpages&logoColor=white)
 
-## 📋 Sobre o Projeto
+Projeto de demonstração com HTML e CSS, criado para praticar estruturação de página, aplicação de estilos e publicação simples via GitHub Pages.
 
-O projeto apresenta exemplos práticos de:
-- Estrutura HTML básica
-- Estilização com CSS
-- Diferentes tipos de seletores
-- Boas práticas de desenvolvimento web
+## O que este projeto demonstra
 
-## 🚀 Como executar o projeto
+| Frente | Valor técnico |
+| --- | --- |
+| HTML | Organização de conteúdo em uma página estática |
+| CSS | Uso de seletores e estilização separada do markup |
+| Publicação | Base pronta para hospedagem via GitHub Pages |
+| Boas práticas | Separação entre estrutura, estilo e documentação |
 
-1. **Baixar o projeto:**
-    - Clique em "Code" → "Download ZIP" e extraia os arquivos
-    - Ou clone o repositório: `git clone https://github.com/EBAC-QE/aula-html-ebac.git`
+## Estrutura
 
-2. **Executar:**
-    - Navegue até a pasta do projeto
-    - Abra o arquivo `index.html` em qualquer navegador
+```text
+.
+├── Readme.md
+├── index.html
+└── style.css
+```
 
-## 🌐 Visualização Online
+## Como executar localmente
 
-Acesse a versão publicada em: https://ebac-qe.github.io/aula-html-ebac/
+```bash
+git clone https://github.com/DouglasAntoni0/aula-html-ebac.git
+cd aula-html-ebac
+```
 
-## 📄 Como criar sua própria GitHub Pages
+Abra `index.html` no navegador.
 
-1. No seu repositório, vá em **Settings**
-2. Role até a seção **Pages**
-3. Em **Source**, selecione **Deploy from a branch**
-4. Escolha a branch **main** e pasta **/ (root)**
-5. Clique em **Save**
-6. Aguarde alguns minutos e acesse o link gerado
+## Como publicar no GitHub Pages
 
-Sua página ficará disponível em: `https://[seu-usuario].github.io/[nome-do-repositorio]/`
+1. Acesse `Settings` no repositório.
+2. Entre em `Pages`.
+3. Em `Source`, selecione `Deploy from a branch`.
+4. Escolha a branch `main` e a pasta `/ (root)`.
+5. Salve e aguarde a geração do link.
+
+## Resultado técnico
+
+Este repositório registra domínio dos fundamentos de front-end que apoiam a atuação em QA: entender estrutura de DOM, seletores CSS e organização de página facilita a leitura de aplicações web e a criação de automações mais estáveis.
